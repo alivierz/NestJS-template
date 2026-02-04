@@ -16,8 +16,6 @@ Tras trabajar con diversas estructuras, he consolidado este boilerplate que resu
 
 ---
 
----
-
 ## 🏗️ Estructura de Capas
 
 El proyecto está organizado para proteger el núcleo del negocio:
