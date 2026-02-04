@@ -16,6 +16,19 @@ Tras trabajar con diversas estructuras, he consolidado este boilerplate que resu
 
 ---
 
+---
+
+## 🏗️ Estructura de Capas
+
+El proyecto está organizado para proteger el núcleo del negocio:
+
+1.  **Domain:** Contiene las entidades, interfaces de repositorios y reglas de negocio. Es el corazón del sistema y no depende de nada externo.
+2.  **Application:** Servicios y casos de uso que orquestan la lógica del dominio.
+3.  **Infrastructure:** Implementaciones concretas (MongoUserRepository, PostgresUserRepository, adaptadores de JWT, etc.).
+4.  **Interface (Presentation):** Controladores, DTOs y configuración de la API. Aquí es donde vive la magia de la documentación.
+
+---
+
 ## 🏗️ Estructura del Proyecto
 
 ```text
