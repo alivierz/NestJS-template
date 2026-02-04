@@ -1,6 +1,6 @@
 # NestJS Clean Architecture Template 🚀
 
-Este es un **template base** diseñado bajo los principios de **Clean Architecture** y **Hexagonal Architecture**. Está pensado para desarrolladores que buscan una base de código profesional, desacoplada y altamente escalable para proyectos en NestJS.
+Este es un **template base** diseñado bajo los principios de **Clean Architecture**. Está pensado para desarrolladores que buscan una base de código profesional, desacoplada y altamente escalable para proyectos en NestJS.
 
 ## 🌟 ¿Por qué usar este template?
 
