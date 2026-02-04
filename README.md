@@ -23,7 +23,6 @@ El proyecto está organizado para proteger el núcleo del negocio:
 1.  **Domain:** Contiene las entidades, interfaces de repositorios y reglas de negocio. Es el corazón del sistema y no depende de nada externo.
 2.  **Application:** Servicios y casos de uso que orquestan la lógica del dominio.
 3.  **Infrastructure:** Implementaciones concretas (MongoUserRepository, PostgresUserRepository, adaptadores de JWT, etc.).
-4.  **Interface (Presentation):** Controladores, DTOs y configuración de la API. Aquí es donde vive la magia de la documentación.
 
 ---
 
@@ -31,12 +30,11 @@ El proyecto está organizado para proteger el núcleo del negocio:
 
 ```text
 src/
-├── common/           # Filtros, interceptores, decoradores y excepciones globales
+├── common/           # Filtros, interceptores, decoradores, DTOs y excepciones globales
 ├── modules/
 │   └── users/
 │       ├── domain/         # Entidades e interfaces de repositorio (Core)
 │       ├── application/    # Servicios (Casos de Uso)
 │       ├── infrastructure/ # Implementaciones de bases de datos (Mongo/Postgres)
-│       └── interface/      # Controladores y DTOs
 ├── main.ts           # Configuración central y documentación
 ```
