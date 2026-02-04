@@ -9,7 +9,7 @@ Tras trabajar con diversas estructuras, he consolidado este boilerplate que resu
 ### Características Principales:
 
 - **Independencia de Persistencia:** Implementación de patrones de Repositorio que permiten alternar o combinar bases de datos (MongoDB, PostgreSQL, etc.) sin tocar la lógica de negocio.
-- **Arquitectura por Capas:** Separación estricta entre **Domain**, **Application**, **Infrastructure** y **Interface**.
+- **Arquitectura por Capas:** Separación estricta entre **Domain**, **Application** e **Infrastructure** .
 - **Documentación de Elite con Scalar:** Integración personalizada para una API interactiva, con esquemas de respuesta estandarizados y ejemplos listos para probar.
 - **Robustez en Errores:** Filtros globales de excepción que garantizan que el cliente siempre reciba una respuesta con `tracking ID`, `timestamp` y un formato predecible.
 - **Clean Code Helpers:** Decoradores personalizados para simplificar la documentación y el manejo de rutas.
